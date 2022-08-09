@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 28%, 15%);
+}
+
+.header {
+    width: 100%; height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+.logo {
+    width: 40%; height: 70px;
+    padding-left: 50px;
+    /* border: 2px solid green; */
+}
+
+.logo-img {
+    align-items: center;
+}
+
+.nav-box {
+    width: 20%; height: 70px;
+    /* border: 2px solid green; */
+}
+
+.nav-box nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.nav-box nav ul li{
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-body {
+    width: 100%;
+    background-image: url(/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.illustration-img {
+    margin: 15px auto;
+    width: 600px; height: 400px;
+}
+
+.content1 {
+    margin-top: 140px;
+    text-align: center;
+    color: white;
+    line-height: 1.4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn1 {
+    padding: 7px 20px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(176, 68%, 64%);
+    color: white;
+    border: none;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+    /* border: 2px solid red; */
+    text-align: center;
+    line-height: 1.4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box1 {
+    margin-left: 80px;
+    /* border: 1px solid white; */
+}
+
+.access-img{
+    width: 50px; height: 50px;
+    margin-bottom: 15px;
+}
+
+.box2 {
+    margin-left: 80px;
+    /* border: 1px solid white; */
+}
+
+.security-img {
+    width: 50px; height: 50px;
+    margin-bottom: 15px;
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+    /* border: 2px solid red; */
+    text-align: center;
+    line-height: 1.4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box3 {
+    margin-left: 80px;
+    /* border: 1px solid white; */
+}
+
+.box4 {
+    margin-left: 80px;
+    /* border: 1px solid white; */
+}
+
+p {
+    font-size: 12px;
+}
+
+.content4 {
+    display: flex;
+    color: white;
+    text-align: left;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.productive-img{
+    margin-left: 100px;
+}
+
+.box5 {
+    margin: 100px 0 0 100px;
+}
+
+.main-testimoney {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: solid 1px red; */
+}
+
+.testmoney-img {
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.quotes-img {
+    margin-top: 50px;
+    /* border: solid 1px red; */
+    margin-left: 250px;
+    transform: translateY(10px);
+}
+
+.testimony1 {
+    /* border: solid 1px red; */
+    padding: 15px;
+    margin-right: 15px;
+    background-color: hsl(219, 30%, 18%);
+    z-index: 1;
+}
+
+.testimony2 {
+    /* border: solid 1px red; */
+    padding: 15px;
+    margin: 0 15px 0 15px;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.testimony3 {
+    /* border: solid 1px red; */
+    padding: 15px;
+    margin-left: 15px;
+    background-color: hsl(219, 30%, 18%);
+}
+.ceo-flex {
+    display: flex;
+}
+
+.early {
+    /* border: solid 4px white; */
+    margin-top: 50px;
+}
+
+.early-access {
+    width: 70%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    background-color: hsl(218, 28%, 13%);
+    transform: translateY(80px);
+    border: solid 1px hsl(217, 25%, 17%);
+    box-shadow: 5px;
+}
+
+input[type=email] {
+    width: 25%;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-right: 15px;
+    border: none;
+}
+
+input[type=button] {
+    width: 15%;
+    border-radius: 20px;
+    padding: 7px 7px;
+    border: none;
+    color: white;
+    background-color: hsl(176, 68%, 64%);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone {
+    display: flex;
+    color: white;
+}
+
+.mail {
+    display: flex;
+    color: white;
+}
+
+.location {
+    display: flex;
+    color: white;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+    width: 100%; height: auto;
+}
+
+.footer-logo {
+    padding: 140px 0 30px 100px;
+}
+
+.location-img {
+    padding: 0 10px 0 0px;
+    margin-left: 100px;
+}
+
+.phone-img {
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.mail-img {
+    padding-right: 10px;
+}
+
+.about ul li {
+    list-style: none;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.icon {
+    margin-right: 100px;
+}
+
+.fa-brands {
+    color: #fff !important;
+    margin-left: 5px; margin-right: 5px;
+}
+
+
+@media screen and (max-width: 540px) {
+    
+   .header{
+    flex-direction: column;
+    text-align: center;
+   } 
+   .nav-box  {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    width: 100%;
+    border: solid 1px white;
+}
+.nav-box nav {
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+
+.nav-box nav ul {
+    margin: 0 auto;
+}
+
+.nav-box nav ul li{
+    padding: 0 15px;
+}
+
+.main-body{
+    background-image: none;
+}
+
+.illustration-image {
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.content1 {
+    margin-top: 0px;
+}
+
+.content2 {
+    flex-direction: column;
+}
+
+.content3 {
+    flex-direction: column;
+    margin: 0;
+}
+
+.productive-img img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    border:  1px solid red;
+}
+
+.content4 {
+    flex-direction: column;
+}
+
+.btn1 {
+    /* width: auto; */
+    /* padding: 7px 20px; */
+}
+
+.box1 {
+    margin: 0px;
+}
+
+.box2 {
+    margin: 0px;
+}
+
+.box3 {
+    margin: 0px;
+}
+
+.box4 {
+    margin: 0px;
+}
+
+.box5 {
+    text-align: left;
+    margin-left: 15px;
+}
+
+
+.main-testimoney {
+    flex-direction: column;
+}
+
+.testimony1 {
+    margin: 0 10px 0 10px;
+}
+
+.testimony2 {
+    margin: 10px 10px 0 10px;
+}
+
+.testimony3 {
+    margin: 10px 10px 0 10px;
+}
+
+.quotes-img {
+    margin-left: 10px;
+}
+
+.email-btn {
+    
+}
+
+.email btn input {
+    /* width: 100%; */
+    display: block;
+    border: solid 1px red;
+}
+
+.footer-flex {
+    flex-direction: column;
+}
+
+.footer-logo {
+    padding-left: 15px;
+}
+
+.location-img {
+    margin-left: 15px;
+}
+
+.phone-img {
+    margin-left: 15px;
+}
+
+.phone {
+    margin-top: 15px;
+}
+
+.mail-img {
+    margin-left: 15px;
+}
+
+.mail {
+    margin-top: 15px;
+}
+
+.about {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.contact {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.icon {
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+}
